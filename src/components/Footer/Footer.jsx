@@ -77,7 +77,7 @@ const organization = [
     },
     {
         name: 'ইউটুব',
-        url: '/youtube',
+        url: 'https://www.youtube.com/channel/UCBSNbOumi5uNLJz8vFGJLRQ',
     },
 ];
 const links = [

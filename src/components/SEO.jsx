@@ -6,13 +6,13 @@
  * * */
 
 const data = {
-    title: 'Informative Coding | Learn Programming',
+    title: ' ইনফরমেটিভ কোডিং - Informative Coding । বাংলায় প্রোগ্রামিং শিখুন',
     description:
-        'This is a non-profit organization for learning programming-related topics. You can learn on this platform all about Programming, Data Structures & Algorithms, and New Technologies.',
+        'ইনফরমেটিভ কোডিং হচ্ছে একটি অলাভজনক সংস্থা। যার উদ্দেশ্য বাংলায় প্রোগ্রামিং সম্পর্কিত বিষয় সমূহের বৃহৎ সংস্থান গড়ে তোলে মানুষ কে শিখার সুযোগ করে দেওয়া। ইনফরমেটিভ কোডিং এর কনটেন্ট ইউটুব এবং ওয়েবসাইটের মাধ্যমে প্রকাশিত হয়।',
     keywords:
-        'Informative Coding, Learn Programming, Data Structures, Algorithms, JavaScript, Programming Languages',
+        'Informative Coding, Learn Programming, Data Structures, Algorithms, JavaScript, Programming Languages,ইনফরমেটিভ কোডিং, প্রোগ্রামিং,ডাটা স্ট্রাকচার,এলগোরিদম,পাইথন ,জাভাস্ক্রিপ্ট,সি। ',
     url: 'https://informativecoding.github.io',
-    altForImage: 'Muhammad Minhaj',
+    altForImage: 'Informative Coding | ইনফরমেটিভ কোডিং',
     siteName: 'informativecoding.github.io',
     fbAppId: '3242641772502117',
     twitterSiteUsername: '@InformativeCode',
