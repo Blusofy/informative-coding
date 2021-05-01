@@ -16,67 +16,67 @@ function GapDiv({ children }) {
 
 const languages = [
     {
-        name: 'Javascript',
+        name: 'জাভাস্ক্রিপ্ট',
         url: '/javascript',
     },
     {
-        name: 'Python',
+        name: 'পাইথন',
         url: '/python',
     },
     {
-        name: 'C',
+        name: 'সি',
         url: '/c',
     },
     {
-        name: 'C++',
+        name: 'সি++',
         url: '/c',
     },
     {
-        name: 'Typescript',
+        name: 'টাইপস্ক্রিপট',
         url: '/typescript',
     },
 ];
 const resources = [
     {
-        name: 'Programming',
+        name: 'প্রোগ্রামিং',
         url: '/programming',
     },
     {
-        name: 'Data Structures',
+        name: 'ডাটা স্ট্রাটার্স',
         url: '/datastructures',
     },
     {
-        name: 'Algorithms',
+        name: 'অ্যালগরিদমস',
         url: '/algorithms',
     },
     {
-        name: 'Technologies',
+        name: 'টেকনোলজিস',
         url: '/technologies',
     },
     {
-        name: 'Blogs',
+        name: 'ব্লগস',
         url: '/blogs',
     },
 ];
 const organization = [
     {
-        name: 'About',
+        name: 'সম্পর্কে',
         url: '/about',
     },
     {
-        name: 'Contribution',
+        name: 'কন্ট্রিবিউশন',
         url: '/contribution',
     },
     {
-        name: 'Privacy Policy',
+        name: 'প্রাইভেসি পলিসি',
         url: '/privacy-policy',
     },
     {
-        name: 'Terms & Conditions',
+        name: 'টার্মস এন্ড কন্ডিশন',
         url: '/terms-conditions',
     },
     {
-        name: 'Youtube',
+        name: 'ইউটুব',
         url: '/youtube',
     },
 ];
@@ -94,19 +94,19 @@ function Footer() {
                 <Grid container>
                     <Grid item sm={3}>
                         <GapDiv>
-                            <Typography variant="h5">Languages</Typography>
+                            <Typography variant="h5">প্রোগ্রামিং ভাষা</Typography>
                             <CustomList lists={languages} icon={<FiberManualRecordIcon />} />
                         </GapDiv>
                     </Grid>
                     <Grid item sm={3}>
                         <GapDiv>
-                            <Typography variant="h5">Resources</Typography>
+                            <Typography variant="h5">রিসোর্স</Typography>
                             <CustomList lists={resources} icon={<TrendingFlatIcon />} />
                         </GapDiv>
                     </Grid>
                     <Grid item sm={3}>
                         <GapDiv>
-                            <Typography variant="h5">Organization</Typography>
+                            <Typography variant="h5">অর্গানাইজেশন</Typography>
                             <CustomList lists={organization} icon={<FiberManualRecordIcon />} />
                         </GapDiv>
                     </Grid>
@@ -116,14 +116,10 @@ function Footer() {
                             <br />
 
                             <Typography variant="body1">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-                                maxime nam explicabo aliquid, laborum numquam dolores harum nisi
-                                dolorem in?
-                            </Typography>
-                            <Typography variant="body1">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-                                maxime nam explicabo aliquid, laborum numquam dolores harum nisi
-                                dolorem in?
+                                প্রোগ্রামিং শিখুন নিজের মাতৃভাষায়। প্রোগ্রামিং এর ভয়কে করব জয়। আর
+                                সময় নষ্ট করবেন না আজকে থেকে শুরু করুন। প্রোগ্রামিং শিখুন নিজের
+                                মাতৃভাষায়। প্রোগ্রামিং এর ভয়কে করব জয়। আর সময় নষ্ট করবেন না আজকে
+                                থেকে শুরু করুন।
                             </Typography>
                         </GapDiv>
                     </Grid>
@@ -138,7 +134,9 @@ function Footer() {
                         flexDirection: isMobile ? 'column-reverse' : 'row',
                     }}
                 >
-                    <Typography variant="button">Informative Coding</Typography>
+                    <Typography variant="h6" color="textSecondary">
+                        - ইনফরমেটিভ কোডিং
+                    </Typography>
                     <SocialLinks links={links} />
                 </div>
             </Container>

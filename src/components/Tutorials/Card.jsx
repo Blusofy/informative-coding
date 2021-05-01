@@ -50,13 +50,15 @@ export default function MediaControlCard({ title, description, url, iconUrl }) {
                         <Typography component="h5" variant="h5">
                             {title}
                         </Typography>
-                        <Typography variant="subtitle2" color="textSecondary">
+                        <Typography variant="body2" color="textSecondary">
                             {description}
                         </Typography>
                     </CardContent>
                     <div className={classes.controls}>
                         <Button color="primary" size="small" endIcon={<ArrowForwardIcon />}>
-                            Learn
+                            <Typography variant="subtitle1" color="primary">
+                                শিখুন
+                            </Typography>
                         </Button>
                     </div>
                 </CardActionArea>

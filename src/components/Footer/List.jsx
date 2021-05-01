@@ -1,4 +1,4 @@
-import { List, ListItem, ListItemIcon, ListItemText } from '@material-ui/core';
+import { List, ListItem, ListItemIcon, ListItemText, Typography } from '@material-ui/core';
 import { useRouter } from 'next/router';
 
 export default function InsetList({ lists, icon }) {
@@ -13,7 +13,7 @@ export default function InsetList({ lists, icon }) {
                     onClick={() => router.push(url)}
                 >
                     <ListItemIcon>{icon}</ListItemIcon>
-                    <ListItemText primary={name} />
+                    <ListItemText primary={<Typography variant="subtitle1">{name}</Typography>} />
                 </ListItem>
             ))}
         </List>

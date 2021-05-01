@@ -11,17 +11,20 @@ function Thumbnail() {
         <div>
             <Grid container>
                 <Grid item sm={6}>
+                    <Typography variant="h4">আসসালামু আলাইকুম,,,</Typography>
+                    <Box marginTop="1rem" />
+
                     <Typography variant="h2" color="primary">
-                        Welcome To Informative Coding
+                        ইনফরমেটিভ কোডিং এর পক্ষ থেকে আপনাকে স্বাগতম।
                     </Typography>
                     <Box marginTop="2rem" />
 
                     <Divider />
 
-                    <Typography variant="button" color="textSecondary">
-                        This is a non-profit organization for learning programming-related topics.
-                        You can learn on this platform all about Programming, Data Structures &
-                        Algorithms, and New Technologies.
+                    <Typography variant="body1" color="textSecondary">
+                        ইনফরমেটিভ কোডিং হচ্ছে একটি অলাভজনক সংস্থা। যার লক্ষ মানুষ কে সঠিক গাইড
+                        লাইনের মাধ্যমে শিখানো। ইনফরমেটিভ কোডিং হচ্ছে একটি অলাভজনক সংস্থা। যার লক্ষ
+                        মানুষ কে সঠিক গাইড লাইনের মাধ্যমে শিখানো।
                     </Typography>
                     <Box marginTop="5rem" />
 
@@ -31,10 +34,10 @@ function Thumbnail() {
                         size="large"
                         style={{ marginRight: '0.5rem' }}
                     >
-                        Get APPs
+                        আমাদের এপপ্স
                     </Button>
                     <Button color="primary" variant="contained" size="large">
-                        Learn To Code
+                        নতুন কিছু শিখুন
                     </Button>
                 </Grid>
                 <Grid item sm={6}>

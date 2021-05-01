@@ -1,3 +1,30 @@
+/* English Fonts */
+@font-face {
+  font-family: enOneFont;
+  src: url("/static/fonts/en/sourcesanspro/sourcesanspro/SourceSansPro-Regular.ttf");
+}
+@font-face {
+  font-family: enTwoFont;
+  src: url("/static/fonts/en/spacemono/spacemono/SpaceMono-Regular.ttf");
+}
+/* Bangla Fonts */
+@font-face {
+  font-family: bnTitleFontOne;
+  src: url("/static/fonts/bn/ShohidBarkat/Unicode/Li Shohid Barkat Unicode.ttf");
+}
+@font-face {
+  font-family: bnTitleFontTwo;
+  src: url("/static/fonts/bn/AdorShurobhi/Unicode/Li Ador Shurobhi Unicode.ttf");
+}
+@font-face {
+  font-family: bnParaFontOne;
+  src: url("/static/fonts/bn/Kalpurush/Kalpurush-Regular.ttf");
+}
+@font-face {
+  font-family: bnParaFontTwo;
+  src: url("/static/fonts/bn/Nikosh/Nikosh-Regular_jvTyYV3.ttf");
+}
+
 html,
 body {
   padding: 0;
@@ -14,4 +41,19 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: bnTitleFontOne, bnTitleFontTwo !important;
+  color: #353747;
+}
+p {
+  font-family: bnParaFontOne, bnParaFontTwo !important;
+  font-size: 1.25rem !important;
+  color: #4d4f5d;
 }

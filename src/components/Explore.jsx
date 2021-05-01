@@ -25,17 +25,17 @@ const styleObj = { width: '4rem', height: '4rem' };
 
 const exploreList = [
     {
-        name: 'Programming',
+        name: 'প্রোগ্রামিং',
         icon: <CodeIcon style={styleObj} />,
         url: '/programming',
     },
     {
-        name: 'Data Structures',
+        name: 'ডাটা স্ট্রাটার্স',
         icon: <DataUsageIcon style={styleObj} />,
         url: '/data-structures',
     },
     {
-        name: 'Algorithms',
+        name: 'অ্যালগরিদমস',
         icon: <ShowChartIcon style={styleObj} />,
         url: '/algorithms',
     },
@@ -56,15 +56,19 @@ function CustomCard({ name, url, icon }) {
                         </Typography>
                         <br />
                         <Typography variant="body2" color="textSecondary" align="center">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
-                            explicabo hic expedita error in, corporis delectus cumque quia alias
-                            porro, excepturi unde sequi commodi esse?
+                            প্রোগ্রামিং শিখুন নিজের মাতৃভাষায়। প্রোগ্রামিং এর ভয়কে করব জয়। আর সময়
+                            নষ্ট করবেন না আজকে থেকে শুরু করুন।
                         </Typography>
                     </Box>
                 </CardContent>
                 <CardActions>
-                    <Button color="primary" onClick={() => router.push(url)} fullWidth>
-                        Get Start Now
+                    <Button
+                        // color="primary"
+                        variant="outlined"
+                        onClick={() => router.push(url)}
+                        fullWidth
+                    >
+                        <Typography variant="subtitle2">শুরু করুন</Typography>
                     </Button>
                 </CardActions>
             </Card>
@@ -76,7 +80,7 @@ function Services() {
     return (
         <>
             <Typography variant="h4" color="primary" align="center">
-                Explore
+                মৌলিক বিষয়
             </Typography>
             <Grid container>
                 {exploreList.map((elem) => (

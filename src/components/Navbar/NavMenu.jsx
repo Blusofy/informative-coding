@@ -1,4 +1,4 @@
-import { Drawer, List, ListItem, ListItemIcon, ListItemText } from '@material-ui/core';
+import { Drawer, List, ListItem, ListItemIcon, ListItemText, Typography } from '@material-ui/core';
 import {
     Code as CodeIcon,
     DataUsage as DataUsageIcon,
@@ -11,32 +11,32 @@ import { useRouter } from 'next/router';
 
 const listMenu = [
     {
-        name: 'Home',
+        name: 'হোম',
         href: '/',
         icon: <HomeIcon />,
     },
     {
-        name: 'Programming',
+        name: 'প্রোগ্রামিং',
         href: '/programming',
         icon: <CodeIcon />,
     },
     {
-        name: 'Data Structures',
+        name: 'ডাটা স্ট্রাটার্স',
         href: '/data-structures',
         icon: <DataUsageIcon />,
     },
     {
-        name: 'Algorithms',
+        name: 'অ্যালগরিদমস',
         href: '/algorithms',
         icon: <ShowChartIcon />,
     },
     {
-        name: 'Technologies',
+        name: 'টেকনোলজিস',
         href: '/technologies',
         icon: <HelpIcon />,
     },
     {
-        name: 'Blogs',
+        name: 'ব্লগস',
         href: '/blogs',
         icon: <QueryBuilderIcon />,
     },
@@ -46,7 +46,11 @@ function Item({ name, icon, href }) {
     return (
         <ListItem button divider onClick={() => router.push(href)}>
             <ListItemIcon>{icon}</ListItemIcon>
-            <ListItemText>{name}</ListItemText>
+            <ListItemText>
+                <Typography variant="h6" color="textSecondary">
+                    {name}
+                </Typography>
+            </ListItemText>
         </ListItem>
     );
 }

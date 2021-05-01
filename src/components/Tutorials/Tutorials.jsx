@@ -8,41 +8,41 @@ import { Button, Grid, Typography } from '@material-ui/core';
 import { ExpandMore as MoreIcon } from '@material-ui/icons';
 import Card from './Card';
 
-const initDescription = 'Learn to code with our beginner-friendly tutorials and examples...';
+const initDescription = 'প্রোগ্রামিং শিখুন নিজের মাতৃভাষায়। প্রোগ্রামিং এর ভয়কে করব জয়।';
 
 const tutorialsData = [
     {
-        title: 'Javascript',
+        title: 'জাভাস্ক্রিপ্ট',
         description: initDescription,
         url: '/javascript',
         iconUrl: '/static/icons/js.png',
     },
     {
-        title: 'Python',
+        title: 'পাইথন',
         description: initDescription,
         url: '/python',
         iconUrl: '/static/icons/py.png',
     },
     {
-        title: 'C',
+        title: 'সি',
         description: initDescription,
         url: '/c',
         iconUrl: '/static/icons/c.png',
     },
     {
-        title: 'C++',
+        title: 'সি++',
         description: initDescription,
         url: '/c++',
         iconUrl: '/static/icons/c++.png',
     },
     {
-        title: 'Java',
+        title: 'জাভা',
         description: initDescription,
         url: '/java',
         iconUrl: '/static/icons/java.png',
     },
     {
-        title: 'Typescript',
+        title: 'টাইপস্ক্রিপট',
         description: initDescription,
         url: '/typescript',
         iconUrl: '/static/icons/ts.png',
@@ -53,7 +53,7 @@ function Tutorials() {
     return (
         <div>
             <Typography variant="h4" color="primary" align="center">
-                Languages
+                প্রোগ্রামিং ভাষা
             </Typography>
             <br />
 
@@ -73,7 +73,9 @@ function Tutorials() {
                 endIcon={<MoreIcon />}
                 style={{ marginLeft: '0.5rem' }}
             >
-                Get More
+                <Typography variant="subtitle1" color="primary">
+                    আরো দেখুন
+                </Typography>
             </Button>
         </div>
     );

@@ -1,4 +1,4 @@
-import { Tab, Tabs } from '@material-ui/core';
+import { Tab, Tabs, Typography } from '@material-ui/core';
 import {
     Code as CodeIcon,
     DataUsage as DataUsageIcon,
@@ -17,32 +17,32 @@ function a11yProps(index) {
 
 const listMenu = [
     {
-        name: 'Home',
+        name: 'হোম',
         href: '/',
         icon: <HomeIcon />,
     },
     {
-        name: 'Programming',
+        name: 'প্রোগ্রামিং',
         href: '/programming',
         icon: <CodeIcon />,
     },
     {
-        name: 'Data Structures',
+        name: 'ডাটা স্ট্রাটার্স',
         href: '/data-structures',
         icon: <DataUsageIcon />,
     },
     {
-        name: 'Algorithms',
+        name: 'অ্যালগরিদমস',
         href: '/algorithms',
         icon: <ShowChartIcon />,
     },
     {
-        name: 'Technologies',
+        name: 'টেকনোলজিস',
         href: '/technologies',
         icon: <HelpIcon />,
     },
     {
-        name: 'Blogs',
+        name: 'ব্লগস',
         href: '/blogs',
         icon: <QueryBuilderIcon />,
     },
@@ -60,7 +60,11 @@ function NavTab() {
         >
             {listMenu.map(({ name, href, icon }, index) => (
                 <Tab
-                    label={name}
+                    label={
+                        <Typography variant="h6" color="textSecondary">
+                            {name}
+                        </Typography>
+                    }
                     href={href}
                     value={href}
                     icon={icon}
