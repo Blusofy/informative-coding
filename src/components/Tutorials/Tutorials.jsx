@@ -8,42 +8,42 @@ import { Button, Grid, Typography } from '@material-ui/core';
 import { ExpandMore as MoreIcon } from '@material-ui/icons';
 import Card from './Card';
 
-const initDescription = 'প্রোগ্রামিং শিখুন নিজের মাতৃভাষায়। প্রোগ্রামিং এর ভয়কে করব জয়।';
+const initDescription = (title) => ` প্রাথমিক পর্যায় থেকে বাংলায় সহজে ${title} শিখুন।`;
 
 const tutorialsData = [
     {
         title: 'জাভাস্ক্রিপ্ট',
-        description: initDescription,
+        description: initDescription('জাভাস্ক্রিপ্ট'),
         url: '/javascript',
         iconUrl: '/static/icons/js.png',
     },
     {
         title: 'পাইথন',
-        description: initDescription,
+        description: initDescription('পাইথন'),
         url: '/python',
         iconUrl: '/static/icons/py.png',
     },
     {
         title: 'সি',
-        description: initDescription,
+        description: initDescription('সি'),
         url: '/c',
         iconUrl: '/static/icons/c.png',
     },
     {
         title: 'সি++',
-        description: initDescription,
+        description: initDescription('সি++'),
         url: '/c++',
         iconUrl: '/static/icons/c++.png',
     },
     {
         title: 'জাভা',
-        description: initDescription,
+        description: initDescription('জাভা'),
         url: '/java',
         iconUrl: '/static/icons/java.png',
     },
     {
         title: 'টাইপস্ক্রিপট',
-        description: initDescription,
+        description: initDescription('টাইপস্ক্রিপট'),
         url: '/typescript',
         iconUrl: '/static/icons/ts.png',
     },
@@ -53,7 +53,7 @@ function Tutorials() {
     return (
         <div>
             <Typography variant="h4" color="primary" align="center">
-                প্রোগ্রামিং ভাষা
+                বিষয় নির্বাচন করুন
             </Typography>
             <br />
 

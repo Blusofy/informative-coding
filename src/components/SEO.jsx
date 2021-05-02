@@ -6,13 +6,13 @@
  * * */
 
 const data = {
-    title: ' ইনফরমেটিভ কোডিং - Informative Coding । বাংলায় প্রোগ্রামিং শিখুন',
+    title: 'Informative Coding - ইনফরমেটিভ কোডিং । বাংলায় প্রোগ্রামিং শিখুন',
     description:
         'ইনফরমেটিভ কোডিং হচ্ছে একটি অলাভজনক সংস্থা। যার উদ্দেশ্য বাংলায় প্রোগ্রামিং সম্পর্কিত বিষয় সমূহের বৃহৎ সংস্থান গড়ে তোলে মানুষ কে শিখার সুযোগ করে দেওয়া। ইনফরমেটিভ কোডিং এর কনটেন্ট ইউটুব এবং ওয়েবসাইটের মাধ্যমে প্রকাশিত হয়।',
     keywords:
         'Informative Coding, Learn Programming, Data Structures, Algorithms, JavaScript, Programming Languages,ইনফরমেটিভ কোডিং, প্রোগ্রামিং,ডাটা স্ট্রাকচার,এলগোরিদম,পাইথন ,জাভাস্ক্রিপ্ট,সি। ',
     url: 'https://informativecoding.github.io',
-    altForImage: 'Informative Coding | ইনফরমেটিভ কোডিং',
+    altForImage: 'Informative Coding - ইনফরমেটিভ কোডিং । বাংলায় প্রোগ্রামিং শিখুন',
     siteName: 'informativecoding.github.io',
     fbAppId: '3242641772502117',
     twitterSiteUsername: '@InformativeCode',

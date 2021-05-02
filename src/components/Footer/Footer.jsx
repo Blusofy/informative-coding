@@ -112,7 +112,7 @@ function Footer() {
                     </Grid>
                     <Grid item sm={3}>
                         <GapDiv>
-                            <Typography variant="h5">About</Typography>
+                            <Typography variant="h5">ইনফরমেটিভ কোডিং</Typography>
                             <br />
 
                             <Typography variant="body1">
