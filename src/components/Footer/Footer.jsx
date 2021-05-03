@@ -55,24 +55,24 @@ const resources = [
     },
     {
         name: 'ব্লগ',
-        url: '/blogs',
+        url: '/blog',
     },
 ];
 const organization = [
     {
         name: 'আমাদের সম্পর্কে',
-        url: '/about',
+        url: '/about-us',
     },
     {
         name: 'আমাদের লেখকগণ',
-        url: '/ourwriters',
+        url: '/our-authors',
     },
     {
         name: 'কন্ট্রিবিউশন',
         url: '/contribution',
     },
     {
-        name: 'টার্মস এন্ড কন্ডিশন',
+        name: 'ব্যবহারবিধি এবং নীতিমালা',
         url: '/terms-conditions',
     },
     {
