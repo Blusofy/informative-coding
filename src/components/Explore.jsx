@@ -12,12 +12,12 @@ import {
     CardContent,
     Grid,
     IconButton,
-    Typography
+    Typography,
 } from '@material-ui/core';
 import {
     Code as CodeIcon,
     DataUsage as DataUsageIcon,
-    ShowChart as ShowChartIcon
+    ShowChart as ShowChartIcon,
 } from '@material-ui/icons';
 import { useRouter } from 'next/router';
 
@@ -32,18 +32,18 @@ const exploreList = [
             'যদি প্রোগ্রামিং শুরু করার কথা ভেবে থাকেন তাহলে এটি আপনার জন্য। প্রোগ্রামিং এর মূল বিষয় গুলো সম্পর্কে প্রাথমিক পর্যায় থেকে বিস্তারিত আলোচনা করা হয়েছে।',
     },
     {
-        name: 'ডাটা স্ট্রাটার্স',
+        name: 'ডাটা স্ট্রাকচার',
         icon: <DataUsageIcon style={styleObj} />,
         url: '/data-structures',
         description:
-            'জাভাস্ক্রিপ্ট দ্বারা ডাটা স্ট্রাটার্স শিখুন এবং এর প্রয়োজনীয়তা সম্পর্কে জানুন। ডাটা স্ট্রাটার্স এর প্রাথমিক পর্যায় থেকে শুরু করে বিস্তারিত আলোচনা করা হয়েছে।',
+            'জাভাস্ক্রিপ্ট দ্বারা ডাটা স্ট্রাকচার শিখুন এবং এর প্রয়োজনীয়তা সম্পর্কে জানুন। ডাটা স্ট্রাকচার এর প্রাথমিক পর্যায় থেকে শুরু করে বিস্তারিত আলোচনা করা হয়েছে।',
     },
     {
-        name: 'অ্যালগরিদমস',
+        name: 'অ্যালগরিদম',
         icon: <ShowChartIcon style={styleObj} />,
         url: '/algorithms',
         description:
-            'জাভাস্ক্রিপ্ট দ্বারা অ্যালগরিদমস শিখুন এবং এর প্রয়োজনীয়তা সম্পর্কে জানুন। অ্যালগরিদমস এর প্রাথমিক পর্যায় থেকে শুরু করে বিস্তারিত আলোচনা করা হয়েছে।',
+            'জাভাস্ক্রিপ্ট দ্বারা অ্যালগরিদম শিখুন এবং এর প্রয়োজনীয়তা সম্পর্কে জানুন। অ্যালগরিদম এর প্রাথমিক পর্যায় থেকে শুরু করে বিস্তারিত আলোচনা করা হয়েছে।',
     },
 ];
 
@@ -56,7 +56,6 @@ function CustomCard({ name, url, icon, description }) {
                 <CardContent>
                     <Box display="flex" flexDirection="column" alignItems="center">
                         <IconButton>{icon}</IconButton>
-                        {/* {icon} */}
                         <Typography variant="h5" color="primary">
                             {name}
                         </Typography>
@@ -82,6 +81,10 @@ function Services() {
             <Typography variant="h4" color="primary" align="center">
                 মৌলিক বিষয়
             </Typography>
+            <Typography variant="subtitle1" color="textSecondary" align="center">
+                শেখার মাঝে রয়েছে এক স্বর্গীয় অনুভূতি, যদি সে বিষয় কে ভালোবেসে শিখতে পারেন।
+            </Typography>
+            <br />
             <Grid container>
                 {exploreList.map((elem) => (
                     <CustomCard {...elem} key={elem.name} />

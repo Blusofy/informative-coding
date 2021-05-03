@@ -27,23 +27,23 @@ const listMenu = [
         icon: <CodeIcon />,
     },
     {
-        name: 'ডাটা স্ট্রাটার্স',
-        href: '/data-structures',
+        name: 'ডাটা স্ট্রাকচার',
+        href: '/data-structure',
         icon: <DataUsageIcon />,
     },
     {
-        name: 'অ্যালগরিদমস',
-        href: '/algorithms',
+        name: 'অ্যালগরিদম',
+        href: '/algorithm',
         icon: <ShowChartIcon />,
     },
     {
-        name: 'টেকনোলজিস',
+        name: 'জনপ্রিয় প্রযুক্তি',
         href: '/technologies',
         icon: <HelpIcon />,
     },
     {
-        name: 'ব্লগস',
-        href: '/blogs',
+        name: 'ব্লগ',
+        href: '/blog',
         icon: <QueryBuilderIcon />,
     },
 ];

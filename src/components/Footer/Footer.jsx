@@ -42,34 +42,34 @@ const resources = [
         url: '/programming',
     },
     {
-        name: 'ডাটা স্ট্রাটার্স',
-        url: '/datastructures',
+        name: 'ডাটা স্ট্রাকচার',
+        url: '/datastructure',
     },
     {
-        name: 'অ্যালগরিদমস',
-        url: '/algorithms',
+        name: 'অ্যালগরিদম',
+        url: '/algorithm',
     },
     {
-        name: 'টেকনোলজিস',
+        name: 'জনপ্রিয় প্রযুক্তি',
         url: '/technologies',
     },
     {
-        name: 'ব্লগস',
+        name: 'ব্লগ',
         url: '/blogs',
     },
 ];
 const organization = [
     {
-        name: 'সম্পর্কে',
+        name: 'আমাদের সম্পর্কে',
         url: '/about',
+    },
+    {
+        name: 'আমাদের লেখকগণ',
+        url: '/ourwriters',
     },
     {
         name: 'কন্ট্রিবিউশন',
         url: '/contribution',
-    },
-    {
-        name: 'প্রাইভেসি পলিসি',
-        url: '/privacy-policy',
     },
     {
         name: 'টার্মস এন্ড কন্ডিশন',
@@ -94,7 +94,7 @@ function Footer() {
                 <Grid container>
                     <Grid item sm={3}>
                         <GapDiv>
-                            <Typography variant="h5">প্রোগ্রামিং ভাষা</Typography>
+                            <Typography variant="h5">জনপ্রিয় প্রযুক্তি</Typography>
                             <CustomList lists={languages} icon={<FiberManualRecordIcon />} />
                         </GapDiv>
                     </Grid>
@@ -134,8 +134,11 @@ function Footer() {
                         flexDirection: isMobile ? 'column-reverse' : 'row',
                     }}
                 >
-                    <Typography variant="h6" color="textSecondary">
-                        - ইনফরমেটিভ কোডিং
+                    <Typography variant="h6">
+                        - ইনফরমেটিভ{' '}
+                        <Typography variant="span" color="textSecondary">
+                            কোডিং
+                        </Typography>
                     </Typography>
                     <SocialLinks links={links} />
                 </div>
