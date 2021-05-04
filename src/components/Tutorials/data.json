@@ -1,0 +1,52 @@
+[
+  {
+    "title": "জাভাস্ক্রিপ্ট",
+    "description": "প্রাথমিক পর্যায় থেকে বাংলায় সহজে জাভাস্ক্রিপ্ট শিখুন।",
+    "url": "/javascript",
+    "iconUrl": "/static/icons/js.png"
+  },
+  {
+    "title": "টাইপস্ক্রিপট",
+    "description": "জাভাস্ক্রিপ্টের জ্ঞান দিয়ে সহজে টাইপস্ক্রিপ্ট শিখুন।",
+    "url": "/typescript",
+    "iconUrl": "/static/icons/ts.png"
+  },
+  {
+    "title": "রিয়েক্ট  জেএস",
+    "description": "রিয়েক্ট জেএস শিখুন এবং রিয়েক্ট এর উপায়ে চিন্তা করুন।",
+    "url": "/reactjs",
+    "iconUrl": "/static/icons/react.png"
+  },
+  {
+    "title": "রিয়েক্ট নেটিভ",
+    "description": "রিয়েক্ট নেটিভ শিখে মোবাইল এপপ্স তৈরী করুন।",
+    "url": "/expressjs",
+    "iconUrl": "/static/icons/react-native.jpg"
+  },
+  {
+    "title": "নেক্সট জেএস",
+    "description": "আর নয় এসইও এর চিন্তা এবার নেক্সট জেএস শিখুন।",
+    "url": "/nextjs",
+    "iconUrl": "/static/icons/nextjs.svg"
+  },
+  {
+    "title": "নোড জেএস",
+    "description": "ব্যাক-এন্ড ডেভেলপমেন্টের জন্য সহজে নোড জেএস শিখুন।",
+    "url": "/nodejs",
+    "iconUrl": "/static/icons/nodejs1.png"
+  },
+
+  {
+    "title": "গিট এবং গিটহাব",
+    "description": "সহজে গিট এবং গিটহাব শিখে ভার্সন নিয়ন্ত্রণ করুন",
+    "url": "/git-github",
+    "iconUrl": "/static/icons/git.svg"
+  },
+
+  {
+    "title": "টার্মিনাল",
+    "description": "সহজে টার্মিনাল এর ব্যবহার শিখে কম সময়ে বেশি কাজ করুন।",
+    "url": "/terminal",
+    "iconUrl": "/static/icons/terminal.png"
+  }
+]

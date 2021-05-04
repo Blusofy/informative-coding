@@ -8,59 +8,7 @@ import { Button, Grid, Grow, Typography } from '@material-ui/core';
 import { ExpandMore as MoreIcon } from '@material-ui/icons';
 import { useRouter } from 'next/router';
 import Card from './Card';
-
-const initDescription = (title) => ` প্রাথমিক পর্যায় থেকে বাংলায় সহজে ${title} শিখুন।`;
-
-const tutorialsData = [
-    {
-        title: 'জাভাস্ক্রিপ্ট',
-        description: initDescription('জাভাস্ক্রিপ্ট'),
-        url: '/javascript',
-        iconUrl: '/static/icons/js.png',
-    },
-    {
-        title: 'পাইথন',
-        description: initDescription('পাইথন'),
-        url: '/python',
-        iconUrl: '/static/icons/py.png',
-    },
-    {
-        title: 'সি',
-        description: initDescription('সি'),
-        url: '/c',
-        iconUrl: '/static/icons/c.png',
-    },
-    {
-        title: 'সি++',
-        description: initDescription('সি++'),
-        url: '/c++',
-        iconUrl: '/static/icons/c++.png',
-    },
-    {
-        title: 'জাভা',
-        description: initDescription('জাভা'),
-        url: '/java',
-        iconUrl: '/static/icons/java.png',
-    },
-    {
-        title: 'টাইপস্ক্রিপট',
-        description: initDescription('টাইপস্ক্রিপট'),
-        url: '/typescript',
-        iconUrl: '/static/icons/ts.png',
-    },
-    {
-        title: 'জাভা1',
-        description: initDescription('জাভা'),
-        url: '/java',
-        iconUrl: '/static/icons/java.png',
-    },
-    {
-        title: 'টাইপস্ক্রিপট1',
-        description: initDescription('টাইপস্ক্রিপট'),
-        url: '/typescript',
-        iconUrl: '/static/icons/ts.png',
-    },
-];
+import tutorialsData from './data.json';
 
 function Tutorials({ isLimited }) {
     const router = useRouter();

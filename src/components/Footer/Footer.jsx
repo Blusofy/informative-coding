@@ -4,7 +4,7 @@
  * Title: WEB FOOTTER
  * Description: Web footer section
  * * */
-import { Container, Divider, Grid, Typography, useMediaQuery } from '@material-ui/core';
+import { Box, Container, Divider, Grid, Typography, useMediaQuery } from '@material-ui/core';
 import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
 import TrendingFlatIcon from '@material-ui/icons/TrendingFlat';
 import SocialLinks from '../SocialLinks';
@@ -20,20 +20,20 @@ const languages = [
         url: '/javascript',
     },
     {
-        name: 'পাইথন',
-        url: '/python',
-    },
-    {
-        name: 'সি',
-        url: '/c',
-    },
-    {
-        name: 'সি++',
-        url: '/c',
-    },
-    {
         name: 'টাইপস্ক্রিপট',
         url: '/typescript',
+    },
+    {
+        name: 'রিয়েক্ট জেএস',
+        url: '/reactjs',
+    },
+    {
+        name: 'রিয়েক্ট নেটিভ',
+        url: '/react-native',
+    },
+    {
+        name: 'নোড জেএস',
+        url: '/nodejs',
     },
 ];
 const resources = [
@@ -134,12 +134,14 @@ function Footer() {
                         flexDirection: isMobile ? 'column-reverse' : 'row',
                     }}
                 >
-                    <Typography variant="h6">
-                        - ইনফরমেটিভ{' '}
-                        <Typography variant="span" color="textSecondary">
+                    <Box>
+                        <Typography variant="h6" display="inline">
+                            - ইনফরমেটিভ{' '}
+                        </Typography>
+                        <Typography variant="h6" display="inline" color="textSecondary">
                             কোডিং
                         </Typography>
-                    </Typography>
+                    </Box>
                     <SocialLinks links={links} />
                 </div>
             </Container>

@@ -34,14 +34,14 @@ const exploreList = [
     {
         name: 'ডাটা স্ট্রাকচার',
         icon: <DataUsageIcon style={styleObj} />,
-        url: '/data-structures',
+        url: '/data-structure',
         description:
             'জাভাস্ক্রিপ্ট দ্বারা ডাটা স্ট্রাকচার শিখুন এবং এর প্রয়োজনীয়তা সম্পর্কে জানুন। ডাটা স্ট্রাকচার এর প্রাথমিক পর্যায় থেকে শুরু করে বিস্তারিত আলোচনা করা হয়েছে।',
     },
     {
         name: 'অ্যালগরিদম',
         icon: <ShowChartIcon style={styleObj} />,
-        url: '/algorithms',
+        url: '/algorithm',
         description:
             'জাভাস্ক্রিপ্ট দ্বারা অ্যালগরিদম শিখুন এবং এর প্রয়োজনীয়তা সম্পর্কে জানুন। অ্যালগরিদম এর প্রাথমিক পর্যায় থেকে শুরু করে বিস্তারিত আলোচনা করা হয়েছে।',
     },

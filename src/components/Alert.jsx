@@ -15,8 +15,8 @@ export default function ResponsiveDialog({ isOpen, handleClick }) {
                 <DialogTitle id="responsive-dialog-title">ইনফরমেটিভ কোডিং মোবাইল এপপ্স</DialogTitle>
                 <DialogContent>
                     <DialogContentText>
-                        আমাদের ইনফরমেটিভ কোডিং মোবাইল এপপ্স এখনো ডেভেলপমেন্ট চলছে। আশা করা যায়
-                        শিগ্রই চলে আসবে। ধন্যবাদ।
+                        ইনফরমেটিভ কোডিং এর মোবাইল এপপ্স এখনো ডেভেলপমেন্ট চলছে। আশা করা যায় আইওএস এবং
+                        এন্ড্রোইড এর জন্য খুব শিগ্রই চলে আসবে। ধন্যবাদ।
                     </DialogContentText>
                 </DialogContent>
                 <DialogActions>
