@@ -38,7 +38,7 @@ function Navbar(props) {
                                 >
                                     <img
                                         alt="Informative Coding"
-                                        src="/static/logo.png"
+                                        src="https://blusofy.github.io/informative-coding/static/logo.png"
                                         width="90%"
                                         height="90%"
                                     />

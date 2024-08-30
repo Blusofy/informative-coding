@@ -59,7 +59,7 @@ function Thumbnail() {
                     {isMobile && <Box marginTop="3rem" />}
                     <div style={{ maxWidth: '450px', float: 'right' }}>
                         <img
-                            src="/static/images/slide4.jpg"
+                            src="https://blusofy.github.io/informative-coding/static/images/slide4.jpg"
                             alt="sldie"
                             width="100%"
                             height="100%"

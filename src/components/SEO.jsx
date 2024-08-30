@@ -17,8 +17,8 @@ const data = {
     fbAppId: '3242641772502117',
     twitterSiteUsername: '@InformativeCode',
     author: 'Muhammad Minhaj',
-    image: '/static/logo.png',
-    favicon: '/static/favicon.ico',
+    image: 'https://blusofy.github.io/informative-coding/static/logo.png',
+    favicon: 'https://blusofy.github.io/informative-coding/static/favicon.ico',
 };
 
 const SEO = () => (
